@@ -1,0 +1,18 @@
+<%- include ../partials/header.ejs %>
+
+<main>
+    <form method="post" action="add">
+        <feildset>
+            <label for="title">Title:*</label>
+            <input type="text" name="title" required >
+        </feildset>
+        <fieldset>
+            <label for="content">Content:*</label>
+            <input type="text" name="content" required>
+        </fieldset>
+        <button class="btn btn-primary" type="submit">Save</button>
+
+    </form>
+</main>
+</body>
+</html>
